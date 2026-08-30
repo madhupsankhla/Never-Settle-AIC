@@ -12,7 +12,7 @@
 📁 **Complete Submission Deliverables Folder:** [`submission_deliverables/`](submission_deliverables/INDEX.md)  
 📄 **Technical Solution Document (PDF):** [`submission_deliverables/SoleSight_Technical_Solution_Document.pdf`](submission_deliverables/SoleSight_Technical_Solution_Document.pdf)  
 📊 **Detailed Business Proposal (PDF):** [`submission_deliverables/SoleSight_Business_Proposal.pdf`](submission_deliverables/SoleSight_Business_Proposal.pdf)  
-🎬 **Prototype Demonstration Video Plan:** [`submission_deliverables/Prototype_Demo_Video_Package.md`](submission_deliverables/Prototype_Demo_Video_Package.md)  
+🎬 **Presentation:** [`SoleSight_Business_Proposal`](SoleSight_Business_Proposal.pptx)  
 
 ---
 
