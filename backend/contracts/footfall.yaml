@@ -1,0 +1,79 @@
+kpi_id: footfall
+id: footfall
+name: "Store Footfall & Walk-ins"
+version: "1.0.0"
+definition: >
+  Total count of unique physical walk-in customer entries captured by overhead optical
+  and infrared entrance sensors across reporting periods. Represents the baseline volume of
+  commercial consumer traffic entering the retail store footprint.
+owner_persona: "Marketing & Growth Lead"
+
+calculation:
+  formula: "SUM(fact_footfall.entries_count)"
+  inputs:
+    - field: "entries_count"
+      table: "fact_footfall"
+      description: "Hourly and daily overhead camera entrance sensor count"
+  cadence: "daily"
+  source_table: "fact_footfall"
+
+grain:
+  native_cadence: "daily"
+  allowed_aggregations:
+    - "sum"
+    - "daily_average"
+  hierarchy_keys:
+    - "store_id"
+    - "region"
+    - "network"
+  item_breakdown_keys:
+    - "entrance_zone"
+    - "hourly_slot"
+
+computation:
+  engine: "python"
+  function: "app.l2_kpi.formulas.compute_footfall"
+
+drivers:
+  - id: marketing_campaign_reach
+    name: "Marketing Campaign Acquisition Lift"
+    domain: "marketing"
+    data_source: "fact_campaigns"
+    metric: "campaign_spend_amount"
+    statistical_method: "Ad Spend Cross-Correlation & Store Catchment Lift"
+    max_confidence_tier: "HIGH"
+
+  - id: weather_anomaly
+    name: "Inclement Weather Residual Drag"
+    domain: "external"
+    data_source: "fact_weather"
+    metric: "precipitation_mm"
+    statistical_method: "Precipitation & Temperature Drift Coefficient (OLS Residual)"
+    max_confidence_tier: "MEDIUM"
+
+  - id: local_event
+    name: "Mall Catchment & Local Event Traffic"
+    domain: "external"
+    data_source: "dim_store"
+    metric: "mall_or_high_street"
+    statistical_method: "Mall vs High Street Traffic Differential Analysis"
+    max_confidence_tier: "LOW"
+
+thresholds:
+  materiality_floor_pct: 5.0
+  z_score_cutoff: 2.0
+  baseline_lookback_periods: 8
+  confidence_bands:
+    high: ">= 0.85"
+    medium: "0.40 - 0.84"
+    low: "< 0.40"
+
+lineage:
+  parent_kpi: "revenue"
+  master_equation: "Revenue = Footfall * Conversion_Rate * AOV * UPT"
+  child_dimensions:
+    - "Region"
+    - "Store"
+    - "Format"
+    - "Location Type"
+  decomposition_method: "PVM Volume Split (Footfall vs Conversion Delta)"

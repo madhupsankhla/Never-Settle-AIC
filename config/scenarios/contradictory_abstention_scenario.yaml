@@ -1,0 +1,21 @@
+id: "contradictory_abstention_scenario"
+name: "Abstention Scenario: Low Confidence & Contradictory Drivers"
+description: "STORE-003 experiences a conversion drop during 2026-W33 where inventory is full, staffing is trained, competitor prices are stable, and candidate statistical drivers have low confidence (< 0.20) or conflicting tight gaps, triggering the deterministic Abstention Gate."
+target_store: "STORE-003"
+target_region: "North"
+target_period: "2026-W33"
+injection:
+  footfall:
+    change_pct: -0.5
+  conversion_rate:
+    pre_anomaly_mean: 0.20
+    post_anomaly_mean: 0.17
+  inventory:
+    target_sku: "SKU-1010"
+    target_sizes: []
+    on_hand_units: 50 # No stockout
+  hypotheses_override:
+    tier: "LOW"
+    top_confidence: 0.22
+    second_confidence: 0.19
+    abstain_reason: "Contradictory signals: Inventory fill rate is optimal (96%) and staff training is 92%, while external weather and footfall residuals show no correlation (p > 0.40). Unable to attribute conversion drop with required statistical rigor."

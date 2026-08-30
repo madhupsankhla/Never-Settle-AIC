@@ -1,0 +1,19 @@
+id: "store_manager"
+title: "Store Manager"
+scope: "own_store"
+narrative_style: "operational_action_first"
+description: "Frontline retail leadership focused on actionable operational fixes (restocks, shift adjustments) for their specific store."
+visibility:
+  level: "store_deep"
+  allow_sku_level: true
+  allow_size_level: true
+  allow_staff_level: true
+  allow_other_stores: false
+currency_emphasis: false
+evidence_tag_preference: "actionable_drilldown"
+prompt_guidance: |
+  You are speaking directly to a Store Manager.
+  Tone: Direct, operational, empathetic, and action-oriented.
+  Focus: Immediate store floor actions (which exact SKUs/sizes to restock or pull, shift staffing adjustments).
+  Do NOT show data from other stores.
+  Always provide concrete next steps and mention the specific size/SKU details.

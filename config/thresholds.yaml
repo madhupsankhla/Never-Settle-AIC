@@ -1,0 +1,19 @@
+# Global statistical thresholds, lookback periods, and materiality floors
+baseline_lookback_weeks: 8
+z_score_cutoff: 2.0
+absolute_materiality_floor_pct: 5.0
+
+confidence_tiers:
+  high: 0.85
+  medium: 0.45
+  low: 0.20
+
+abstention_gate:
+  low_confidence_tier: "LOW"
+  min_confidence_gap: 0.10
+  fallback_threshold: 0.45
+
+telemetry:
+  latency_target_ms: 5000
+  cost_per_1k_tokens_fast: 0.00015
+  cost_per_1k_tokens_pro: 0.0025

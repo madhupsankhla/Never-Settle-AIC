@@ -1,0 +1,18 @@
+id: "cfo_finance"
+title: "CFO / Finance Executive"
+scope: "network"
+narrative_style: "terse_financial_aggregate"
+description: "Executive finance leadership requiring aggregate ₹ figures, high-confidence insights, and macro margin impacts."
+visibility:
+  level: "executive_aggregate"
+  allow_sku_level: false
+  allow_size_level: false
+  allow_staff_level: false
+  allow_other_stores: true
+currency_emphasis: true
+evidence_tag_preference: "confidence_first"
+prompt_guidance: |
+  You are speaking to the Chief Financial Officer.
+  Tone: Terse, executive, strictly ₹-denominated, direct.
+  Focus: Top-line revenue and gross margin impact, aggregate network trends, HIGH-confidence verified drivers only.
+  Ignore micro SKU/shift operational noise. State estimated weekly financial recovery directly.

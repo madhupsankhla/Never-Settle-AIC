@@ -1,0 +1,11 @@
+id: "sparse_sku_scenario"
+name: "Sparse History SKU Scenario"
+description: "Newly launched SKU-9901 has only 2 weeks of sales history. The statistical engine widens confidence bounds gracefully rather than failing or overconfidently reporting false attribution."
+target_store: "STORE-007"
+target_region: "South"
+target_period: "2026-W33"
+injection:
+  sku_id: "SKU-9901"
+  launch_week: "2026-W31"
+  history_weeks: 2
+  sample_size_sparse: true

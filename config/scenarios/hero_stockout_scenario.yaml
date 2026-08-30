@@ -1,0 +1,24 @@
+id: "hero_stockout_scenario"
+name: "Hero Scenario: Store-014 Size-Curve Stockout & Secondary Staffing Shift"
+description: "Stable footfall at STORE-014 with an unexplained ~14.2% drop in conversion in 2026-W33, decomposed to SKU-1042 core size stockout (HIGH confidence) and a secondary weaker staffing training deficit (MEDIUM confidence)."
+target_store: "STORE-014"
+target_region: "West"
+target_period: "2026-W33"
+injection:
+  footfall:
+    change_pct: 1.2
+    noise_sigma: 0.03
+  conversion_rate:
+    pre_anomaly_mean: 0.185
+    post_anomaly_mean: 0.1587  # -14.2% drop
+  inventory:
+    target_sku: "SKU-1042"
+    target_sizes: [8, 9]  # Core high-demand sizes
+    stockout_start_week: "2026-W32"  # Preceded the conversion anomaly
+    on_hand_units: 0
+  staffing:
+    training_completion_pct_drop: -0.15
+  competitor:
+    price_change_pct: 0.0
+  returns:
+    lagged_fit_return_uptick: 0.08

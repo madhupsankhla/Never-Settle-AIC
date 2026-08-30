@@ -1,0 +1,87 @@
+kpi_id: full_price_sell_through
+id: full_price_sell_through
+name: "Full-Price Sell-Through %"
+version: "1.0.0"
+definition: >
+  Percentage of total footwear units sold at standard manufacturer list price
+  (>= 95% of catalogue MSRP) without commercial promotional markdown, seasonal clearance,
+  or staff exception discounting. Key indicator of product market resonance and gross margin health.
+owner_persona: "CFO & Finance Director"
+
+calculation:
+  formula: "(SUM(CASE WHEN net_price >= (list_price * 0.95) THEN qty ELSE 0 END) / SUM(qty)) * 100.0"
+  inputs:
+    - field: "qty"
+      table: "fact_pos"
+      description: "Quantity of units sold per line item"
+    - field: "net_price"
+      table: "fact_pos"
+      description: "Net realized price after promotional discount"
+    - field: "list_price"
+      table: "fact_pos"
+      description: "Catalogue standard MSRP price"
+  cadence: "monthly"
+  source_table: "fact_pos"
+
+grain:
+  native_cadence: "monthly"
+  allowed_aggregations:
+    - "sum_ratio"
+    - "weighted_mean"
+  hierarchy_keys:
+    - "store_id"
+    - "region"
+    - "network"
+  item_breakdown_keys:
+    - "sku_id"
+    - "category"
+    - "tier"
+    - "size"
+
+computation:
+  engine: "python"
+  function: "app.l2_kpi.formulas.compute_full_price_sell_through"
+
+drivers:
+  - id: promotional_depth
+    name: "Promotional Markdown Depth"
+    domain: "pricing"
+    data_source: "fact_campaigns"
+    metric: "discount_depth_pct"
+    statistical_method: "Discount Tier Elasticity Matrix"
+    max_confidence_tier: "HIGH"
+
+  - id: size_break_clearance
+    name: "Broken Size Curve Liquidation"
+    domain: "inventory"
+    data_source: "fact_inventory"
+    metric: "odd_size_residual_units"
+    statistical_method: "Odd-Size Residual Age Correlation"
+    max_confidence_tier: "MEDIUM"
+
+  - id: competitor_undercut
+    name: "Competitor Price Aggression"
+    domain: "market"
+    data_source: "fact_competitor_pricing"
+    metric: "competitor_discount_gap_pct"
+    statistical_method: "Cross-Elasticity Undercut Analysis"
+    max_confidence_tier: "MEDIUM"
+
+thresholds:
+  materiality_floor_pct: 5.0
+  z_score_cutoff: 2.0
+  baseline_lookback_periods: 8
+  confidence_bands:
+    high: ">= 0.85"
+    medium: "0.40 - 0.84"
+    low: "< 0.40"
+
+lineage:
+  parent_kpi: "aov"
+  master_equation: "Revenue = Footfall * Conversion_Rate * AOV * UPT; AOV = f(Full_Price_Sell_Through, Category_Mix)"
+  child_dimensions:
+    - "Product Category"
+    - "Product Tier"
+    - "Style"
+    - "Size"
+  decomposition_method: "Price Elasticity & Discount Contribution Matrix"

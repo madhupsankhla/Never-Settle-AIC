@@ -1,0 +1,86 @@
+kpi_id: size_curve_fill_rate
+id: size_curve_fill_rate
+name: "Size-Curve Fill Rate"
+version: "1.0.0"
+definition: >
+  Percentage of standard expected footwear sizes (UK 6 through UK 11, total 6 core sizes)
+  with at least 1 unit physically available on shelf in store inventory. A key leading indicator
+  for try-on friction and customer walk-away rate.
+owner_persona: "Regional Operations Director"
+
+calculation:
+  formula: "(COUNT(DISTINCT CASE WHEN on_hand_units > 0 THEN size END) / MAX(1, expected_sizes_count)) * 100.0"
+  inputs:
+    - field: "on_hand_units"
+      table: "fact_inventory"
+      description: "Available on-shelf inventory count for SKU x Size"
+    - field: "size"
+      table: "fact_inventory"
+      description: "Footwear size code (e.g. UK 6, UK 7, UK 8, UK 9, UK 10, UK 11)"
+    - field: "size_range"
+      table: "dim_product"
+      description: "Expected full size run specification from product catalog"
+  cadence: "daily"
+  source_table: "fact_inventory, dim_product"
+
+grain:
+  native_cadence: "daily"
+  allowed_aggregations:
+    - "mean"
+    - "min"
+    - "weekly_average"
+  hierarchy_keys:
+    - "store_id"
+    - "region"
+    - "network"
+  item_breakdown_keys:
+    - "sku_id"
+    - "category"
+    - "size"
+
+computation:
+  engine: "python"
+  function: "app.l2_kpi.formulas.compute_size_curve_fill_rate"
+
+drivers:
+  - id: dc_replenishment_lag
+    name: "Central DC Restock Lead Time"
+    domain: "supply_chain"
+    data_source: "fact_inventory, dim_supplier"
+    metric: "transit_lead_time_days"
+    statistical_method: "Transit Lead Time & Order Cycle Variance Analysis"
+    max_confidence_tier: "HIGH"
+
+  - id: core_size_velocity
+    name: "Core Size (UK 8/9) Sales Velocity Skew"
+    domain: "inventory"
+    data_source: "fact_pos"
+    metric: "size_velocity_ratio"
+    statistical_method: "Size-Curve Demand Skewness & Run-Out Hazard Rate"
+    max_confidence_tier: "HIGH"
+
+  - id: safety_stock_threshold
+    name: "Safety Stock Buffer Breach"
+    domain: "inventory"
+    data_source: "known_constraints"
+    metric: "buffer_units_remaining"
+    statistical_method: "Reorder Point Buffer Analysis"
+    max_confidence_tier: "MEDIUM"
+
+thresholds:
+  materiality_floor_pct: 5.0
+  z_score_cutoff: 2.0
+  baseline_lookback_periods: 8
+  confidence_bands:
+    high: ">= 0.85"
+    medium: "0.40 - 0.84"
+    low: "< 0.40"
+
+lineage:
+  parent_kpi: "conversion_rate"
+  master_equation: "Conversion_Rate = f(Size_Curve_Fill_Rate, Staff_Assistance, Footfall_Density)"
+  child_dimensions:
+    - "SKU"
+    - "Size Range"
+    - "Size Core vs Fringe"
+  decomposition_method: "Core Size vs Peripheral Size Availability Split"

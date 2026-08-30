@@ -1,0 +1,1 @@
+"""SoleSight Application Package"""

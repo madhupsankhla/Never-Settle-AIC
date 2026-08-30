@@ -1,0 +1,492 @@
+[
+  {
+    "campaign_id": "CMP-2026-001",
+    "campaign_name": "Spring Running Season Kickoff",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": [
+      "FW-001",
+      "FW-002",
+      "FW-003"
+    ],
+    "channel": "social",
+    "start_date": "2026-03-01",
+    "end_date": "2026-03-20",
+    "discount_depth_pct": 10.0,
+    "spend_amount": 650000.0
+  },
+  {
+    "campaign_id": "CMP-2026-002",
+    "campaign_name": "Marathon Pro Store Trial Days",
+    "scope": "region",
+    "store_id": null,
+    "region": "West",
+    "sku_scope": [
+      "FW-001"
+    ],
+    "channel": "in-store",
+    "start_date": "2026-03-05",
+    "end_date": "2026-03-15",
+    "discount_depth_pct": 5.0,
+    "spend_amount": 180000.0
+  },
+  {
+    "campaign_id": "CMP-2026-003",
+    "campaign_name": "Trail Blazer Weekend Feature",
+    "scope": "region",
+    "store_id": null,
+    "region": "West",
+    "sku_scope": [
+      "FW-003"
+    ],
+    "channel": "email",
+    "start_date": "2026-03-08",
+    "end_date": "2026-03-22",
+    "discount_depth_pct": 8.0,
+    "spend_amount": 210000.0
+  },
+  {
+    "campaign_id": "CMP-2026-004",
+    "campaign_name": "Comfort Walk Everyday Push",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": [
+      "FW-005"
+    ],
+    "channel": "social",
+    "start_date": "2026-03-12",
+    "end_date": "2026-03-31",
+    "discount_depth_pct": 10.0,
+    "spend_amount": 300000.0
+  },
+  {
+    "campaign_id": "CMP-2026-005",
+    "campaign_name": "Grip Trainer Gym Partnership",
+    "scope": "region",
+    "store_id": null,
+    "region": "West",
+    "sku_scope": [
+      "FW-004"
+    ],
+    "channel": "influencer",
+    "start_date": "2026-03-18",
+    "end_date": "2026-04-05",
+    "discount_depth_pct": 12.0,
+    "spend_amount": 260000.0
+  },
+  {
+    "campaign_id": "CMP-2026-007",
+    "campaign_name": "April Fools Flash Sale",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": [
+      "FW-002",
+      "FW-003"
+    ],
+    "channel": "social",
+    "start_date": "2026-04-01",
+    "end_date": "2026-04-03",
+    "discount_depth_pct": 25.0,
+    "spend_amount": 300000.0
+  },
+  {
+    "campaign_id": "CMP-2026-006",
+    "campaign_name": "Summer Track Nitro Speed Challenge",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": [
+      "FW-001",
+      "FW-002"
+    ],
+    "channel": "social",
+    "start_date": "2026-04-10",
+    "end_date": "2026-04-30",
+    "discount_depth_pct": 15.0,
+    "spend_amount": 820000.0
+  },
+  {
+    "campaign_id": "CMP-2026-008",
+    "campaign_name": "Marathon Prep Series - Mumbai",
+    "scope": "local",
+    "store_id": "STORE-001",
+    "region": "West",
+    "sku_scope": [
+      "FW-001"
+    ],
+    "channel": "in-store",
+    "start_date": "2026-04-12",
+    "end_date": "2026-04-26",
+    "discount_depth_pct": 8.0,
+    "spend_amount": 150000.0
+  },
+  {
+    "campaign_id": "CMP-2026-010",
+    "campaign_name": "Pune Running Club Meetup Sponsorship",
+    "scope": "local",
+    "store_id": "STORE-005",
+    "region": "West",
+    "sku_scope": [
+      "FW-001",
+      "FW-002"
+    ],
+    "channel": "local ads",
+    "start_date": "2026-04-18",
+    "end_date": "2026-04-28",
+    "discount_depth_pct": 10.0,
+    "spend_amount": 120000.0
+  },
+  {
+    "campaign_id": "CMP-2026-011",
+    "campaign_name": "Ahmedabad Store Anniversary Sale",
+    "scope": "local",
+    "store_id": "STORE-006",
+    "region": "West",
+    "sku_scope": [
+      "FW-001",
+      "FW-003",
+      "FW-004",
+      "FW-005"
+    ],
+    "channel": "in-store",
+    "start_date": "2026-04-20",
+    "end_date": "2026-05-05",
+    "discount_depth_pct": 15.0,
+    "spend_amount": 200000.0
+  },
+  {
+    "campaign_id": "CMP-2026-013",
+    "campaign_name": "Nitro Speed National Push",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": [
+      "FW-002"
+    ],
+    "channel": "social",
+    "start_date": "2026-05-01",
+    "end_date": "2026-05-20",
+    "discount_depth_pct": 12.0,
+    "spend_amount": 500000.0
+  },
+  {
+    "campaign_id": "CMP-2026-014",
+    "campaign_name": "Summer Trail Adventure Teaser",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": [
+      "FW-003"
+    ],
+    "channel": "email",
+    "start_date": "2026-05-05",
+    "end_date": "2026-05-25",
+    "discount_depth_pct": 10.0,
+    "spend_amount": 280000.0
+  },
+  {
+    "campaign_id": "CMP-2026-015",
+    "campaign_name": "Grip Trainer Summer Fitness Drive",
+    "scope": "region",
+    "store_id": null,
+    "region": "West",
+    "sku_scope": [
+      "FW-004"
+    ],
+    "channel": "influencer",
+    "start_date": "2026-05-10",
+    "end_date": "2026-05-31",
+    "discount_depth_pct": 15.0,
+    "spend_amount": 310000.0
+  },
+  {
+    "campaign_id": "CMP-2026-009",
+    "campaign_name": "Nitro Running City Blitz (West Region)",
+    "scope": "region",
+    "store_id": null,
+    "region": "West",
+    "sku_scope": [
+      "FW-001",
+      "FW-002"
+    ],
+    "channel": "social",
+    "start_date": "2026-05-15",
+    "end_date": "2026-06-15",
+    "discount_depth_pct": 15.0,
+    "spend_amount": 450000.0
+  },
+  {
+    "campaign_id": "CMP-2026-012",
+    "campaign_name": "National Early Monsoon Teaser",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": [
+      "FW-002",
+      "FW-004"
+    ],
+    "channel": "email",
+    "start_date": "2026-05-22",
+    "end_date": "2026-06-05",
+    "discount_depth_pct": 18.0,
+    "spend_amount": 540000.0
+  },
+  {
+    "campaign_id": "CMP-2026-016",
+    "campaign_name": "West Region Marathon Pro Restock Teaser",
+    "scope": "region",
+    "store_id": null,
+    "region": "West",
+    "sku_scope": [
+      "FW-001"
+    ],
+    "channel": "email",
+    "start_date": "2026-05-28",
+    "end_date": "2026-06-10",
+    "discount_depth_pct": 5.0,
+    "spend_amount": 90000.0
+  },
+  {
+    "campaign_id": "CMP-2026-018",
+    "campaign_name": "Mid-Monsoon Comfort Walk Feature",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": [
+      "FW-005"
+    ],
+    "channel": "social",
+    "start_date": "2026-06-01",
+    "end_date": "2026-06-20",
+    "discount_depth_pct": 12.0,
+    "spend_amount": 260000.0
+  },
+  {
+    "campaign_id": "CMP-2026-019",
+    "campaign_name": "Grip Trainer Monsoon Gym Push",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": [
+      "FW-004"
+    ],
+    "channel": "email",
+    "start_date": "2026-06-08",
+    "end_date": "2026-06-25",
+    "discount_depth_pct": 10.0,
+    "spend_amount": 240000.0
+  },
+  {
+    "campaign_id": "CMP-2026-023",
+    "campaign_name": "Trail Blazer Rains Ready Campaign",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": [
+      "FW-003"
+    ],
+    "channel": "social",
+    "start_date": "2026-06-15",
+    "end_date": "2026-07-05",
+    "discount_depth_pct": 15.0,
+    "spend_amount": 330000.0
+  },
+  {
+    "campaign_id": "CMP-2026-024",
+    "campaign_name": "Pune DC Priority Restock Alert",
+    "scope": "local",
+    "store_id": "STORE-005",
+    "region": "West",
+    "sku_scope": [
+      "FW-001"
+    ],
+    "channel": "local ads",
+    "start_date": "2026-06-25",
+    "end_date": "2026-07-10",
+    "discount_depth_pct": 0.0,
+    "spend_amount": 95000.0
+  },
+  {
+    "campaign_id": "CMP-2026-017",
+    "campaign_name": "Monsoon Running End of Season Sale",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": [
+      "FW-001",
+      "FW-002",
+      "FW-003",
+      "FW-004"
+    ],
+    "channel": "social",
+    "start_date": "2026-07-01",
+    "end_date": "2026-07-31",
+    "discount_depth_pct": 20.0,
+    "spend_amount": 1200000.0
+  },
+  {
+    "campaign_id": "CMP-2026-025",
+    "campaign_name": "July Payday Weekend Sale",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": null,
+    "channel": "social",
+    "start_date": "2026-07-04",
+    "end_date": "2026-07-06",
+    "discount_depth_pct": 20.0,
+    "spend_amount": 400000.0
+  },
+  {
+    "campaign_id": "CMP-2026-026",
+    "campaign_name": "Nitro Speed Mid-Monsoon Refresh",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": [
+      "FW-002"
+    ],
+    "channel": "email",
+    "start_date": "2026-07-08",
+    "end_date": "2026-07-22",
+    "discount_depth_pct": 15.0,
+    "spend_amount": 360000.0
+  },
+  {
+    "campaign_id": "CMP-2026-020",
+    "campaign_name": "West Region DC Replenishment Hero Push",
+    "scope": "region",
+    "store_id": null,
+    "region": "West",
+    "sku_scope": [
+      "FW-001"
+    ],
+    "channel": "local ads",
+    "start_date": "2026-07-20",
+    "end_date": "2026-07-31",
+    "discount_depth_pct": 0.0,
+    "spend_amount": 220000.0
+  },
+  {
+    "campaign_id": "CMP-2026-027",
+    "campaign_name": "Mumbai Store Restock Celebration",
+    "scope": "local",
+    "store_id": "STORE-001",
+    "region": "West",
+    "sku_scope": [
+      "FW-001"
+    ],
+    "channel": "in-store",
+    "start_date": "2026-07-25",
+    "end_date": "2026-08-02",
+    "discount_depth_pct": 10.0,
+    "spend_amount": 130000.0
+  },
+  {
+    "campaign_id": "CMP-2026-028",
+    "campaign_name": "Comfort Walk Rakhi Gifting Teaser",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": [
+      "FW-005"
+    ],
+    "channel": "social",
+    "start_date": "2026-07-28",
+    "end_date": "2026-08-09",
+    "discount_depth_pct": 10.0,
+    "spend_amount": 220000.0
+  },
+  {
+    "campaign_id": "CMP-2026-021",
+    "campaign_name": "Independence Freedom Run Exclusive",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": null,
+    "channel": "email",
+    "start_date": "2026-08-01",
+    "end_date": "2026-08-18",
+    "discount_depth_pct": 18.0,
+    "spend_amount": 950000.0
+  },
+  {
+    "campaign_id": "CMP-2026-029",
+    "campaign_name": "Grip Trainer Back-to-Fitness Push",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": [
+      "FW-004"
+    ],
+    "channel": "influencer",
+    "start_date": "2026-08-05",
+    "end_date": "2026-08-20",
+    "discount_depth_pct": 12.0,
+    "spend_amount": 300000.0
+  },
+  {
+    "campaign_id": "CMP-2026-030",
+    "campaign_name": "West Region Marathon Pro Stock Confidence Drive",
+    "scope": "region",
+    "store_id": null,
+    "region": "West",
+    "sku_scope": [
+      "FW-001",
+      "FW-002"
+    ],
+    "channel": "local ads",
+    "start_date": "2026-08-08",
+    "end_date": "2026-08-22",
+    "discount_depth_pct": 8.0,
+    "spend_amount": 210000.0
+  },
+  {
+    "campaign_id": "CMP-2026-022",
+    "campaign_name": "Raksha Bandhan Athletic Gifting Showcase",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": [
+      "FW-002",
+      "FW-004",
+      "FW-005"
+    ],
+    "channel": "social",
+    "start_date": "2026-08-10",
+    "end_date": "2026-08-25",
+    "discount_depth_pct": 15.0,
+    "spend_amount": 720000.0
+  },
+  {
+    "campaign_id": "CMP-2026-031",
+    "campaign_name": "Trail Blazer Monsoon Farewell Sale",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": [
+      "FW-003"
+    ],
+    "channel": "social",
+    "start_date": "2026-08-15",
+    "end_date": "2026-08-29",
+    "discount_depth_pct": 15.0,
+    "spend_amount": 280000.0
+  },
+  {
+    "campaign_id": "CMP-2026-032",
+    "campaign_name": "August Payday Weekend Flash Sale",
+    "scope": "national",
+    "store_id": null,
+    "region": null,
+    "sku_scope": null,
+    "channel": "email",
+    "start_date": "2026-08-28",
+    "end_date": "2026-08-31",
+    "discount_depth_pct": 22.0,
+    "spend_amount": 380000.0
+  }
+]

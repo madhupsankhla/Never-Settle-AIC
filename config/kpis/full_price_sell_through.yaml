@@ -1,0 +1,43 @@
+id: "full_price_sell_through"
+name: "Full-Price Sell-Through %"
+description: "Percentage of units sold at or above 95% of list price compared to total units sold."
+version: "1.0.0"
+
+grain:
+  native_cadence: "weekly"
+  allowed_aggregations: ["weekly", "monthly"]
+  hierarchy_keys: ["network", "region", "store_id"]
+  item_breakdown_keys: ["category", "sku_id"]
+
+computation:
+  formula_type: "ratio"
+  numerator:
+    metric: "full_price_units"
+    source_table: "fact_transactions"
+    aggregation: "SUM(CASE WHEN net_price >= (list_price * 0.95) THEN qty ELSE 0 END)"
+  denominator:
+    metric: "total_units_sold"
+    source_table: "fact_transactions"
+    aggregation: "SUM(qty)"
+  scaling_factor: 100.0
+
+lineage:
+  master_equation: "Gross_Margin = Net_Revenue - COGS"
+  level: "pricing_efficiency"
+
+drivers:
+  - id: "competitor_promo"
+    name: "Competitor Price Discounting"
+    domain: "market"
+    data_source: "ext_competitor_pricing"
+    statistical_method: "multiple_regression"
+  - id: "markdown_policy"
+    name: "Scheduled Brand Clearance"
+    domain: "pricing"
+    data_source: "dim_promotions"
+    statistical_method: "deterministic_pass_through"
+
+thresholds:
+  baseline_lookback_periods: 8
+  z_score_cutoff: 2.0
+  absolute_materiality_floor_pct: 5.0

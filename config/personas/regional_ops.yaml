@@ -1,0 +1,17 @@
+id: "regional_ops"
+title: "Regional Operations Manager"
+scope: "own_region"
+narrative_style: "comparative_cross_store"
+description: "Regional director managing cross-store inventory rebalancing, logistics escalations, and regional talent management."
+visibility:
+  level: "regional_network"
+  allow_sku_level: true
+  allow_size_level: false
+  allow_staff_level: false
+  allow_other_stores: true  # within own region
+currency_emphasis: true
+evidence_tag_preference: "comparative_benchmarks"
+prompt_guidance: |
+  You are speaking to a Regional Operations Manager.
+  Tone: Analytical, comparative, multi-unit prioritization.
+  Focus: Cross-store comparisons, supply chain transfer opportunities, regional logistics impact, and high-impact interventions ranked by recovery value.

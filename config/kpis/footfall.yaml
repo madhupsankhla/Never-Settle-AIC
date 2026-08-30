@@ -1,0 +1,48 @@
+id: "footfall"
+name: "Footfall (Store Traffic)"
+description: "Unique visitor store entries measured by optical/sensor door counters."
+version: "1.0.0"
+
+grain:
+  native_cadence: "daily"
+  allowed_aggregations: ["daily", "weekly", "monthly"]
+  hierarchy_keys: ["network", "region", "store_id"]
+  item_breakdown_keys: []
+
+computation:
+  formula_type: "sum"
+  metric: "entries_count"
+  source_table: "fact_footfall"
+  aggregation: "SUM(entries_count)"
+  scaling_factor: 1.0
+
+lineage:
+  master_equation: "Revenue = Footfall * Conversion_Rate * AOV * UPT"
+  level: "traffic_volume"
+
+drivers:
+  - id: "weather_anomaly"
+    name: "Severe Weather Disruption"
+    domain: "external"
+    data_source: "ext_weather"
+    metric: "precipitation_mm"
+    statistical_method: "baseline_residual_regression"
+  - id: "local_event"
+    name: "Local Festival / Holiday Event"
+    domain: "external"
+    data_source: "ext_local_events"
+    metric: "event_presence"
+    statistical_method: "pre_post_comparison"
+
+thresholds:
+  baseline_lookback_periods: 8
+  z_score_cutoff: 2.0
+  absolute_materiality_floor_pct: 7.5
+
+access_control:
+  store_manager:
+    scope: "own_store"
+  regional_ops:
+    scope: "own_region"
+  cfo_finance:
+    scope: "network"

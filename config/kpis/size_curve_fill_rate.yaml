@@ -1,0 +1,38 @@
+id: "size_curve_fill_rate"
+name: "Size-Curve Fill Rate"
+description: "Proportion of active footwear sizes in-stock (>0 units on hand) across the full standard size curve (e.g. sizes 6-11)."
+version: "1.0.0"
+
+grain:
+  native_cadence: "weekly"
+  allowed_aggregations: ["weekly", "monthly"]
+  hierarchy_keys: ["network", "region", "store_id"]
+  item_breakdown_keys: ["category", "sku_id"]
+
+computation:
+  formula_type: "ratio"
+  numerator:
+    metric: "sizes_in_stock"
+    source_table: "fact_inventory_snapshot"
+    aggregation: "COUNT_DISTINCT(CASE WHEN on_hand_units > 0 THEN size END)"
+  denominator:
+    metric: "expected_sizes_count"
+    source_table: "dim_product"
+    aggregation: "COUNT_DISTINCT(size)"
+  scaling_factor: 100.0
+
+lineage:
+  master_equation: "Conversion_Rate = f(Size_Curve_Fill_Rate, Staff, Traffic_Residual, Competitors)"
+  level: "merchandising_availability"
+
+drivers:
+  - id: "supplier_delay"
+    name: "Supplier Purchase Order Delivery Lag"
+    domain: "supply_chain"
+    data_source: "fact_purchase_orders"
+    statistical_method: "precedence_lag_check"
+
+thresholds:
+  baseline_lookback_periods: 8
+  z_score_cutoff: 2.0
+  absolute_materiality_floor_pct: 5.0

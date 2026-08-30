@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+duckdb
+pandas
+numpy
+scipy
+statsmodels
+pyyaml
+openpyxl
+pytest

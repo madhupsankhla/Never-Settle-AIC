@@ -1,0 +1,128 @@
+id: "conversion_rate"
+name: "Conversion Rate"
+description: "Percentage of footfall visitors who complete a purchasing transaction."
+version: "1.0.0"
+
+grain:
+  native_cadence: "daily"
+  allowed_aggregations: ["daily", "weekly", "monthly"]
+  hierarchy_keys: ["network", "region", "store_id"]
+  item_breakdown_keys: ["category", "sku_id", "size"]
+
+computation:
+  formula_type: "ratio"
+  numerator:
+    metric: "transaction_count"
+    source_table: "fact_transactions"
+    aggregation: "COUNT_DISTINCT(transaction_id)"
+  denominator:
+    metric: "footfall_entries"
+    source_table: "fact_footfall"
+    aggregation: "SUM(entries_count)"
+  join_rule:
+    method: "as_of_join"
+    on: ["store_id", "date"]
+  scaling_factor: 100.0
+
+lineage:
+  master_equation: "Revenue = Footfall * Conversion_Rate * AOV * UPT"
+  level: "primary_efficiency"
+  traffic_driver: "footfall"
+
+drivers:
+  - id: "size_curve_stockout"
+    name: "Size-Curve Stockout"
+    domain: "inventory"
+    data_source: "fact_inventory_snapshot"
+    metric: "size_curve_fill_rate"
+    statistical_method: "multiple_regression"
+    evaluation_rules:
+      precedence:
+        check: "stockout_start_date <= anomaly_start_date"
+        max_lag_days: 14
+      dose_response:
+        formula: "delta_conversion ~ beta0 + beta1 * delta_fill_rate"
+        expected_slope: "positive"
+        min_r_squared: 0.25
+        min_p_value: 0.05
+      corroboration:
+        cross_check_metric: "size_related_return_rate"
+        method: "lagged_cross_correlation"
+        expected_direction: "inverse_lagged"
+    confidence_rules:
+      high: "precedence == true and dose_response >= 0.70 and corroborated == true"
+      medium: "dose_response >= 0.50 or precedence == true"
+      low: "unverified or contradicted"
+    suggested_action:
+      lever: "expedite_restock"
+      owner_role: "Regional Merchandising"
+      monitoring_window_days: 7
+
+  - id: "staff_training_deficit"
+    name: "Staff Training Completion Deficit"
+    domain: "staffing"
+    data_source: "fact_staff_schedule"
+    metric: "training_completion_pct"
+    statistical_method: "partial_correlation"
+    evaluation_rules:
+      controlling_variables: ["footfall", "size_curve_fill_rate"]
+      precedence:
+        check: "shift_training_rate_drop_date <= anomaly_start_date"
+      dose_response:
+        min_partial_r: 0.35
+      corroboration:
+        cross_check_metric: "mystery_shopper_score"
+        method: "pearson_r"
+    confidence_rules:
+      high: "precedence == true and partial_r >= 0.60 and corroborated == true"
+      medium: "partial_r >= 0.35"
+      low: "partial_r < 0.35"
+    suggested_action:
+      lever: "staff_reallocation"
+      owner_role: "Store Manager"
+      monitoring_window_days: 14
+
+  - id: "competitor_undercut"
+    name: "Competitor Promotional Undercut"
+    domain: "market"
+    data_source: "ext_competitor_pricing"
+    metric: "competitor_price_index"
+    statistical_method: "multiple_regression"
+    max_confidence_tier: "MEDIUM"
+    evaluation_rules:
+      dose_response:
+        expected_slope: "positive"
+    suggested_action:
+      lever: "matched_promotional_discount"
+      owner_role: "Pricing Team"
+      monitoring_window_days: 7
+
+  - id: "tax_policy_passthrough"
+    name: "Tax or Policy Mandate Impact"
+    domain: "regulatory"
+    data_source: "ext_policy_events"
+    statistical_method: "deterministic_pass_through"
+    evaluation_rules:
+      pass_through_ratio_bounds: [0.85, 1.15]
+    confidence_rules:
+      high: "clean_effective_date_match and pass_through_ratio within bounds"
+    suggested_action:
+      lever: "reprice_compliance"
+      owner_role: "CFO / Finance"
+      monitoring_window_days: 30
+
+thresholds:
+  baseline_lookback_periods: 8
+  z_score_cutoff: 2.0
+  absolute_materiality_floor_pct: 5.0
+
+access_control:
+  store_manager:
+    scope: "own_store"
+    visibility: ["store", "sku", "size", "staff"]
+  regional_ops:
+    scope: "own_region"
+    visibility: ["region", "store", "sku"]
+  cfo_finance:
+    scope: "network"
+    visibility: ["network", "region", "store"]

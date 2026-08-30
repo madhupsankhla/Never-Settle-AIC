@@ -1,0 +1,38 @@
+id: "size_related_return_rate"
+name: "Size-Related Return Rate"
+description: "Percentage of total units returned specifically tagged with sizing/fit defect or customer mis-fit reasons, relative to lagged sales units."
+version: "1.0.0"
+
+grain:
+  native_cadence: "monthly"
+  allowed_aggregations: ["monthly"]
+  hierarchy_keys: ["network", "region", "store_id"]
+  item_breakdown_keys: ["category", "sku_id"]
+
+computation:
+  formula_type: "ratio"
+  numerator:
+    metric: "fit_return_units"
+    source_table: "fact_returns"
+    aggregation: "COUNT(CASE WHEN return_reason_code IN ('FIT_TOO_SMALL', 'FIT_TOO_LARGE', 'WRONG_SIZE') THEN return_id END)"
+  denominator:
+    metric: "prior_units_sold"
+    source_table: "fact_transactions"
+    aggregation: "SUM(qty)"
+  scaling_factor: 100.0
+
+lineage:
+  master_equation: "Net_Revenue = Gross_Revenue - Returns"
+  level: "quality_fit_corroborator"
+
+drivers:
+  - id: "fit_inconsistency"
+    name: "Batch Sizing Variance"
+    domain: "product_quality"
+    data_source: "ext_reviews"
+    statistical_method: "lagged_cross_correlation"
+
+thresholds:
+  baseline_lookback_periods: 6
+  z_score_cutoff: 2.0
+  absolute_materiality_floor_pct: 3.0

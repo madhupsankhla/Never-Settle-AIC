@@ -1,0 +1,219 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans antialiased min-h-screen selection:bg-emerald-500 selection:text-white transition-colors duration-200;
+  }
+}
+
+/* ==========================================================================
+   1. DARK THEME MODE
+   ========================================================================== */
+html.dark {
+  color-scheme: dark;
+}
+
+html.dark body {
+  background-color: #0b1120 !important;
+  color: #f1f5f9 !important;
+}
+
+html.dark .bg-white {
+  background-color: #1e293b !important;
+  color: #f8fafc !important;
+}
+
+html.dark .bg-slate-50,
+html.dark .bg-slate-50\/70,
+html.dark .bg-slate-100 {
+  background-color: #0f172a !important;
+}
+
+html.dark .text-slate-900,
+html.dark .text-slate-800,
+html.dark .text-slate-700 {
+  color: #f8fafc !important;
+}
+
+html.dark .text-slate-600,
+html.dark .text-slate-500 {
+  color: #94a3b8 !important;
+}
+
+html.dark .text-slate-400 {
+  color: #64748b !important;
+}
+
+html.dark .border-slate-200,
+html.dark .border-slate-100,
+html.dark .border-slate-300 {
+  border-color: #334155 !important;
+}
+
+html.dark aside {
+  background-color: #0f172a !important;
+  border-color: #1e293b !important;
+}
+
+html.dark header,
+html.dark nav {
+  background-color: #0f172a !important;
+  border-color: #1e293b !important;
+}
+
+html.dark table thead {
+  background-color: #0f172a !important;
+  color: #cbd5e1 !important;
+  border-color: #334155 !important;
+}
+
+html.dark table tbody tr:hover {
+  background-color: #1e293b !important;
+}
+
+html.dark input,
+html.dark select,
+html.dark textarea {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+  border-color: #334155 !important;
+}
+
+/* ==========================================================================
+   2. HIGH CONTRAST MODE
+   ========================================================================== */
+html[data-high-contrast="true"] body {
+  color: #000000 !important;
+}
+
+html[data-high-contrast="true"] * {
+  border-color: #000000 !important;
+  font-weight: 600 !important;
+}
+
+html[data-high-contrast="true"] .bg-white {
+  background-color: #ffffff !important;
+  box-shadow: 0 0 0 2px #000000 !important;
+}
+
+html[data-high-contrast="true"] button {
+  box-shadow: 0 0 0 2px #000000 !important;
+}
+
+html.dark[data-high-contrast="true"] * {
+  border-color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+html.dark[data-high-contrast="true"] .bg-white {
+  background-color: #000000 !important;
+  box-shadow: 0 0 0 2px #ffffff !important;
+}
+
+/* ==========================================================================
+   3. LAYOUT DENSITY (Compact / Relaxed)
+   ========================================================================== */
+html[data-density="compact"] .p-5,
+html[data-density="compact"] .p-6 {
+  padding: 0.75rem !important;
+}
+
+html[data-density="compact"] .p-4 {
+  padding: 0.5rem !important;
+}
+
+html[data-density="compact"] .space-y-6 > * + * {
+  margin-top: 0.75rem !important;
+}
+
+html[data-density="compact"] .space-y-4 > * + * {
+  margin-top: 0.5rem !important;
+}
+
+html[data-density="compact"] .gap-4 {
+  gap: 0.5rem !important;
+}
+
+html[data-density="relaxed"] .p-5,
+html[data-density="relaxed"] .p-6 {
+  padding: 2rem !important;
+}
+
+html[data-density="relaxed"] .space-y-6 > * + * {
+  margin-top: 2rem !important;
+}
+
+/* ==========================================================================
+   4. REDUCE MOTION / ANIMATIONS TOGGLE
+   ========================================================================== */
+html.reduce-motion *,
+html.reduce-motion *::before,
+html.reduce-motion *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* ==========================================================================
+   5. ACCENT PALETTES
+   ========================================================================== */
+html[data-accent="indigo"] .bg-emerald-600 {
+  background-color: #4f46e5 !important;
+}
+html[data-accent="indigo"] .hover\:bg-emerald-700:hover {
+  background-color: #4338ca !important;
+}
+html[data-accent="indigo"] .text-emerald-600,
+html[data-accent="indigo"] .text-emerald-700 {
+  color: #4f46e5 !important;
+}
+
+html[data-accent="violet"] .bg-emerald-600 {
+  background-color: #7c3aed !important;
+}
+html[data-accent="violet"] .hover\:bg-emerald-700:hover {
+  background-color: #6d28d9 !important;
+}
+html[data-accent="violet"] .text-emerald-600,
+html[data-accent="violet"] .text-emerald-700 {
+  color: #7c3aed !important;
+}
+
+html[data-accent="amber"] .bg-emerald-600 {
+  background-color: #d97706 !important;
+}
+html[data-accent="amber"] .hover\:bg-emerald-700:hover {
+  background-color: #b45309 !important;
+}
+html[data-accent="amber"] .text-emerald-600,
+html[data-accent="amber"] .text-emerald-700 {
+  color: #d97706 !important;
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+
+html.dark ::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

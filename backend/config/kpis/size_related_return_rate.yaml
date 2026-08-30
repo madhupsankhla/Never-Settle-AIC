@@ -1,0 +1,85 @@
+kpi_id: size_related_return_rate
+id: size_related_return_rate
+name: "Size-Related Return Rate"
+version: "1.0.0"
+definition: >
+  Percentage of total sold footwear units returned by customers due to sizing mismatch,
+  fit discomfort, or non-preferred size compromise purchases (such as purchasing UK 8.5 when UK 8
+  was missing on shelf). Primary quality and fit satisfaction indicator.
+owner_persona: "Store Operations Manager"
+
+calculation:
+  formula: "(COUNT(CASE WHEN return_reason_code IN ('FIT_TOO_SMALL', 'FIT_TOO_LARGE', 'WRONG_SIZE') THEN return_id END) / SUM(fact_pos.qty)) * 100.0"
+  inputs:
+    - field: "return_id"
+      table: "fact_returns"
+      description: "Unique returned item transaction identifier"
+    - field: "return_reason_code"
+      table: "fact_returns"
+      description: "Categorical return reason code (FIT_TOO_SMALL, FIT_TOO_LARGE, WRONG_SIZE)"
+    - field: "qty"
+      table: "fact_pos"
+      description: "Total base footwear units sold across the cohort"
+  cadence: "monthly"
+  source_table: "fact_returns, fact_pos"
+
+grain:
+  native_cadence: "monthly"
+  allowed_aggregations:
+    - "sum_ratio"
+    - "cohort_return_pct"
+  hierarchy_keys:
+    - "store_id"
+    - "region"
+    - "network"
+  item_breakdown_keys:
+    - "sku_id"
+    - "size"
+    - "return_reason_code"
+
+computation:
+  engine: "python"
+  function: "app.l2_kpi.formulas.compute_size_related_return_rate"
+
+drivers:
+  - id: forced_size_compromise
+    name: "Forced Size Compromise Purchase"
+    domain: "inventory"
+    data_source: "fact_pos, fact_returns"
+    metric: "bought_nonpreferred_size_flag"
+    statistical_method: "Flagged Nonpreferred Size POS Lag to Return Hazard Rate"
+    max_confidence_tier: "HIGH"
+
+  - id: sizing_guidance_audit
+    name: "Mystery Shopper Sizing Guidance Deficit"
+    domain: "staffing"
+    data_source: "fact_mystery_shopper"
+    metric: "sizing_guidance_score"
+    statistical_method: "Auditor Sizing Guidance Score Cross-Correlation"
+    max_confidence_tier: "MEDIUM"
+
+  - id: customer_fit_feedback
+    name: "Customer Review Fit Sentiment Negative"
+    domain: "product"
+    data_source: "fact_reviews"
+    metric: "fit_related_flag"
+    statistical_method: "Fit-Related Review Flag NLP Sentiment Correlation"
+    max_confidence_tier: "MEDIUM"
+
+thresholds:
+  materiality_floor_pct: 5.0
+  z_score_cutoff: 2.0
+  baseline_lookback_periods: 8
+  confidence_bands:
+    high: ">= 0.85"
+    medium: "0.40 - 0.84"
+    low: "< 0.40"
+
+lineage:
+  parent_kpi: "conversion_rate"
+  master_equation: "Net_Realized_Conversion = Gross_POS_Conversion * (1 - Size_Related_Return_Rate)"
+  child_dimensions:
+    - "SKU"
+    - "Size"
+    - "Return Reason Code"
+  decomposition_method: "Reason-Code Attribution & Forced Compromise Cohort Tagging"

@@ -1,0 +1,107 @@
+kpi_id: conversion_rate
+id: conversion_rate
+name: "Conversion Rate"
+version: "1.0.0"
+definition: >
+  Percentage of store walk-in visitors who complete a qualifying Point-of-Sale (POS)
+  footwear purchase. It represents the primary efficiency metric for store floor merchandising,
+  sizing availability, and staff consultation efficacy.
+owner_persona: "Store Operations Manager"
+
+calculation:
+  formula: "(COUNT(DISTINCT fact_pos.transaction_id) / SUM(fact_footfall.entries_count)) * 100.0"
+  inputs:
+    - field: "transaction_id"
+      table: "fact_pos"
+      description: "Unique point-of-sale transaction record"
+    - field: "entries_count"
+      table: "fact_footfall"
+      description: "Hourly and daily overhead camera entrance count"
+  cadence: "weekly"
+  source_table: "fact_pos, fact_footfall"
+
+grain:
+  native_cadence: "weekly"
+  allowed_aggregations:
+    - "sum_ratio"
+    - "weighted_mean"
+  hierarchy_keys:
+    - "store_id"
+    - "region"
+    - "network"
+  item_breakdown_keys:
+    - "sku_id"
+    - "category"
+    - "size"
+
+computation:
+  engine: "python"
+  function: "app.l2_kpi.formulas.compute_conversion_rate"
+
+drivers:
+  - id: size_curve_stockout
+    name: "Size-Curve Stockout Deficit"
+    domain: "inventory"
+    data_source: "fact_inventory"
+    metric: "core_size_on_hand_units"
+    statistical_method: "Dose-Response Pearson Correlation (r=0.783, p=0.02) with 0-Stock Duration"
+    max_confidence_tier: "HIGH"
+    evaluation_rules:
+      stockout_days_threshold: 4
+      min_affected_sizes: 2
+    confidence_rules:
+      high: ">= 0.85"
+      medium: "0.40 - 0.84"
+      low: "< 0.40"
+    suggested_action:
+      type: "stock_transfer"
+      source: "Central DC"
+      lead_time_days: 2
+
+  - id: staff_training_deficit
+    name: "Staff Sizing Consultation Deficit"
+    domain: "staffing"
+    data_source: "fact_mystery_shopper, dim_staff"
+    metric: "sizing_guidance_score"
+    statistical_method: "Covariate-Controlled Partial Correlation (r=-0.107, p=0.596)"
+    max_confidence_tier: "MEDIUM"
+    evaluation_rules:
+      audit_score_threshold: 60.0
+    suggested_action:
+      type: "shift_training"
+      cadence: "weekly"
+
+  - id: competitor_undercut
+    name: "Competitor Price Undercut"
+    domain: "market"
+    data_source: "fact_competitor_pricing"
+    metric: "price_differential_pct"
+    statistical_method: "Promotional Depth Elasticity OLS Regression"
+    max_confidence_tier: "MEDIUM"
+
+  - id: tax_policy_passthrough
+    name: "GST Regulatory Price Drag"
+    domain: "regulatory"
+    data_source: "dim_policy"
+    metric: "tax_rate_delta"
+    statistical_method: "Diff-in-Diff State Cohort Comparison"
+    max_confidence_tier: "LOW"
+
+thresholds:
+  materiality_floor_pct: 5.0
+  z_score_cutoff: 2.0
+  baseline_lookback_periods: 8
+  confidence_bands:
+    high: ">= 0.85"
+    medium: "0.40 - 0.84"
+    low: "< 0.40"
+
+lineage:
+  parent_kpi: "revenue"
+  master_equation: "Revenue = Footfall * Conversion_Rate * AOV * UPT"
+  child_dimensions:
+    - "Store"
+    - "Category"
+    - "SKU"
+    - "Size"
+  decomposition_method: "Hierarchical Shapley & PVM-style Footfall vs Conversion split"

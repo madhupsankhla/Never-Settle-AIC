@@ -1,0 +1,2422 @@
+[
+  {
+    "review_id": "REV-2026-8002",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-03-01",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8013",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-03-01",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8015",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-03-01",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Pune store \u2014 Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8011",
+    "store_id": "STORE-006",
+    "sku_id": "FW-002",
+    "date": "2026-03-02",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8019",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-03-02",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Pune store \u2014 Well stocked store, friendly staff, got the color and size I wanted."
+  },
+  {
+    "review_id": "REV-2026-8007",
+    "store_id": "STORE-005",
+    "sku_id": "FW-003",
+    "date": "2026-03-03",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Trail Blazer at Pune store \u2014 Store had my exact size in stock, walked out happy in under 5 minutes."
+  },
+  {
+    "review_id": "REV-2026-8028",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-03-03",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Nitro Speed at Pune store \u2014 Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8006",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-03-04",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Well stocked store, friendly staff, got the color and size I wanted."
+  },
+  {
+    "review_id": "REV-2026-8023",
+    "store_id": "STORE-001",
+    "sku_id": "FW-004",
+    "date": "2026-03-04",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": false,
+    "review_text": "Decent shoe overall, had to wait a bit while staff checked the backroom for my size."
+  },
+  {
+    "review_id": "REV-2026-8030",
+    "store_id": "STORE-001",
+    "sku_id": "FW-003",
+    "date": "2026-03-04",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Trail Blazer at Mumbai store \u2014 Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8029",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-03-05",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Well stocked store, friendly staff, got the color and size I wanted."
+  },
+  {
+    "review_id": "REV-2026-8003",
+    "store_id": "STORE-001",
+    "sku_id": "FW-004",
+    "date": "2026-03-06",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Mumbai store \u2014 Loved the design and grip, would definitely recommend to fellow runners."
+  },
+  {
+    "review_id": "REV-2026-8027",
+    "store_id": "STORE-001",
+    "sku_id": "FW-005",
+    "date": "2026-03-06",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": true,
+    "review_text": "Comfort Walk at Mumbai store \u2014 Store had my exact size in stock, walked out happy in under 5 minutes."
+  },
+  {
+    "review_id": "REV-2026-8024",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-03-07",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8004",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-03-12",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8018",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-03-15",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Nitro Speed at Pune store \u2014 Good product but the store took a while to locate my size on the floor."
+  },
+  {
+    "review_id": "REV-2026-8021",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-03-15",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Nitro Speed at Mumbai store \u2014 Exactly the shoe I needed, staff helped me find the right size quickly."
+  },
+  {
+    "review_id": "REV-2026-8014",
+    "store_id": "STORE-001",
+    "sku_id": "FW-003",
+    "date": "2026-03-17",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Fit is okay, slightly snug in the midfoot, needed some guidance from staff."
+  },
+  {
+    "review_id": "REV-2026-8010",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-03-18",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8012",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-03-18",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8022",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-03-18",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Ahmedabad store \u2014 Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8005",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-03-20",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Nitro Speed at Mumbai store \u2014 Decent shoe overall, had to wait a bit while staff checked the backroom for my size."
+  },
+  {
+    "review_id": "REV-2026-8008",
+    "store_id": "STORE-006",
+    "sku_id": "FW-003",
+    "date": "2026-03-22",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8009",
+    "store_id": "STORE-001",
+    "sku_id": "FW-005",
+    "date": "2026-03-23",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8001",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-03-24",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8026",
+    "store_id": "STORE-006",
+    "sku_id": "FW-002",
+    "date": "2026-03-24",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": true,
+    "review_text": "Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8016",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-03-27",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Loved the design and grip, would definitely recommend to fellow runners."
+  },
+  {
+    "review_id": "REV-2026-8020",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-03-30",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8017",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-03-31",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Store had my exact size in stock, walked out happy in under 5 minutes."
+  },
+  {
+    "review_id": "REV-2026-8025",
+    "store_id": "STORE-006",
+    "sku_id": "FW-002",
+    "date": "2026-03-31",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Nitro Speed at Ahmedabad store \u2014 Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8114",
+    "store_id": "STORE-006",
+    "sku_id": "FW-003",
+    "date": "2026-04-04",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Trail Blazer at Ahmedabad store \u2014 Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8102",
+    "store_id": "STORE-001",
+    "sku_id": "FW-003",
+    "date": "2026-04-05",
+    "rating": 1,
+    "sentiment": "negative",
+    "fit_related_flag": false,
+    "review_text": "Trail Blazer at Mumbai store \u2014 Bought a size up since my usual size was unavailable, it pinched my toes during my run. Initiated a return."
+  },
+  {
+    "review_id": "REV-2026-8105",
+    "store_id": "STORE-001",
+    "sku_id": "FW-005",
+    "date": "2026-04-05",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8118",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-04-05",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Comfortable enough, though I expected a bit more cushioning for the price."
+  },
+  {
+    "review_id": "REV-2026-8124",
+    "store_id": "STORE-001",
+    "sku_id": "FW-004",
+    "date": "2026-04-05",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Mumbai store \u2014 Store had my exact size in stock, walked out happy in under 5 minutes."
+  },
+  {
+    "review_id": "REV-2026-8103",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-04-09",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Ahmedabad store \u2014 Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8111",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-04-09",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Good product but the store took a while to locate my size on the floor."
+  },
+  {
+    "review_id": "REV-2026-8129",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-04-11",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Ahmedabad store \u2014 Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8115",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-04-13",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8127",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-04-13",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8122",
+    "store_id": "STORE-005",
+    "sku_id": "FW-004",
+    "date": "2026-04-14",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Pune store \u2014 Comfortable enough, though I expected a bit more cushioning for the price."
+  },
+  {
+    "review_id": "REV-2026-8125",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-04-14",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8101",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-04-15",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8121",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-04-15",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Ahmedabad store \u2014 Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8123",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-04-16",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Exactly the shoe I needed, staff helped me find the right size quickly."
+  },
+  {
+    "review_id": "REV-2026-8112",
+    "store_id": "STORE-001",
+    "sku_id": "FW-004",
+    "date": "2026-04-17",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Mumbai store \u2014 Store had my exact size in stock, walked out happy in under 5 minutes."
+  },
+  {
+    "review_id": "REV-2026-8104",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-04-21",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8119",
+    "store_id": "STORE-005",
+    "sku_id": "FW-004",
+    "date": "2026-04-23",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Pune store \u2014 Store had my exact size in stock, walked out happy in under 5 minutes."
+  },
+  {
+    "review_id": "REV-2026-8113",
+    "store_id": "STORE-001",
+    "sku_id": "FW-005",
+    "date": "2026-04-24",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Comfort Walk at Mumbai store \u2014 Well stocked store, friendly staff, got the color and size I wanted."
+  },
+  {
+    "review_id": "REV-2026-8117",
+    "store_id": "STORE-005",
+    "sku_id": "FW-004",
+    "date": "2026-04-24",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Grip Trainer at Pune store \u2014 Bought a size up since my usual size was unavailable, it pinched my toes during my run. Initiated a return."
+  },
+  {
+    "review_id": "REV-2026-8130",
+    "store_id": "STORE-005",
+    "sku_id": "FW-004",
+    "date": "2026-04-24",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Pune store \u2014 Well stocked store, friendly staff, got the color and size I wanted."
+  },
+  {
+    "review_id": "REV-2026-8110",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-04-25",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8120",
+    "store_id": "STORE-006",
+    "sku_id": "FW-004",
+    "date": "2026-04-25",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Grip Trainer at Ahmedabad store \u2014 Had to try a couple of sizes before settling on the right one."
+  },
+  {
+    "review_id": "REV-2026-8126",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-04-25",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8108",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-04-26",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Size curve availability was terrible during peak hours, several other customers had the same problem."
+  },
+  {
+    "review_id": "REV-2026-8116",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-04-26",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Ahmedabad store \u2014 Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8109",
+    "store_id": "STORE-006",
+    "sku_id": "FW-004",
+    "date": "2026-04-27",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Ahmedabad store \u2014 Store had my exact size in stock, walked out happy in under 5 minutes."
+  },
+  {
+    "review_id": "REV-2026-8106",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-04-28",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Nitro Speed at Mumbai store \u2014 Had to settle for a size that didn't fit because my true size was missing from the shelf."
+  },
+  {
+    "review_id": "REV-2026-8107",
+    "store_id": "STORE-006",
+    "sku_id": "FW-005",
+    "date": "2026-04-30",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Loved the design and grip, would definitely recommend to fellow runners."
+  },
+  {
+    "review_id": "REV-2026-8128",
+    "store_id": "STORE-006",
+    "sku_id": "FW-005",
+    "date": "2026-04-30",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Comfort Walk at Ahmedabad store \u2014 Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8214",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-05-02",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Loved the design and grip, would definitely recommend to fellow runners."
+  },
+  {
+    "review_id": "REV-2026-8228",
+    "store_id": "STORE-001",
+    "sku_id": "FW-004",
+    "date": "2026-05-02",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8219",
+    "store_id": "STORE-006",
+    "sku_id": "FW-002",
+    "date": "2026-05-03",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Nitro Speed at Ahmedabad store \u2014 Exactly the shoe I needed, staff helped me find the right size quickly."
+  },
+  {
+    "review_id": "REV-2026-8206",
+    "store_id": "STORE-006",
+    "sku_id": "FW-002",
+    "date": "2026-05-06",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8226",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-05-06",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8212",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-05-07",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Loved the design and grip, would definitely recommend to fellow runners."
+  },
+  {
+    "review_id": "REV-2026-8234",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-05-07",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Store had my exact size in stock, walked out happy in under 5 minutes."
+  },
+  {
+    "review_id": "REV-2026-8201",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-05-08",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Ahmedabad store \u2014 Store had my exact size in stock, walked out happy in under 5 minutes."
+  },
+  {
+    "review_id": "REV-2026-8230",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-05-08",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Loved the design and grip, would definitely recommend to fellow runners."
+  },
+  {
+    "review_id": "REV-2026-8225",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-05-09",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8227",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-05-09",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8220",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-05-10",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Nitro Speed at Pune store \u2014 Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8222",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-05-10",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Ahmedabad store \u2014 Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8205",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-05-11",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Decent shoe overall, had to wait a bit while staff checked the backroom for my size."
+  },
+  {
+    "review_id": "REV-2026-8208",
+    "store_id": "STORE-006",
+    "sku_id": "FW-002",
+    "date": "2026-05-11",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Nitro Speed at Ahmedabad store \u2014 Loved the design and grip, would definitely recommend to fellow runners."
+  },
+  {
+    "review_id": "REV-2026-8235",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-05-13",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Nitro Speed at Mumbai store \u2014 Fit is okay, slightly snug in the midfoot, needed some guidance from staff."
+  },
+  {
+    "review_id": "REV-2026-8217",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-05-14",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Fit is okay, slightly snug in the midfoot, needed some guidance from staff."
+  },
+  {
+    "review_id": "REV-2026-8218",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-05-14",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8229",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-05-15",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Had to try a couple of sizes before settling on the right one."
+  },
+  {
+    "review_id": "REV-2026-8211",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-05-16",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Marathon Pro at Pune store \u2014 Had to try a couple of sizes before settling on the right one."
+  },
+  {
+    "review_id": "REV-2026-8215",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-05-16",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8231",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-05-16",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Second time this month the store doesn't have my size in Marathon Pro. Getting frustrating."
+  },
+  {
+    "review_id": "REV-2026-8223",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-05-18",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": true,
+    "review_text": "Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8203",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-05-19",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Nitro Speed at Mumbai store \u2014 Fit is okay, slightly snug in the midfoot, needed some guidance from staff."
+  },
+  {
+    "review_id": "REV-2026-8207",
+    "store_id": "STORE-006",
+    "sku_id": "FW-002",
+    "date": "2026-05-19",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": false,
+    "review_text": "Nitro Speed at Ahmedabad store \u2014 Decent shoe overall, had to wait a bit while staff checked the backroom for my size."
+  },
+  {
+    "review_id": "REV-2026-8216",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-05-19",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Fit is okay, slightly snug in the midfoot, needed some guidance from staff."
+  },
+  {
+    "review_id": "REV-2026-8213",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-05-20",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Nitro Speed at Mumbai store \u2014 Good product but the store took a while to locate my size on the floor."
+  },
+  {
+    "review_id": "REV-2026-8210",
+    "store_id": "STORE-005",
+    "sku_id": "FW-003",
+    "date": "2026-05-21",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Trail Blazer at Pune store \u2014 Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8224",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-05-22",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8233",
+    "store_id": "STORE-005",
+    "sku_id": "FW-004",
+    "date": "2026-05-22",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Pune store \u2014 Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8202",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-05-25",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Decent shoe overall, had to wait a bit while staff checked the backroom for my size."
+  },
+  {
+    "review_id": "REV-2026-8221",
+    "store_id": "STORE-001",
+    "sku_id": "FW-003",
+    "date": "2026-05-26",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Store had my exact size in stock, walked out happy in under 5 minutes."
+  },
+  {
+    "review_id": "REV-2026-8232",
+    "store_id": "STORE-006",
+    "sku_id": "FW-004",
+    "date": "2026-05-26",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Ahmedabad store \u2014 Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8204",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-05-28",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Had to try a couple of sizes before settling on the right one."
+  },
+  {
+    "review_id": "REV-2026-8236",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-05-28",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Nitro Speed at Pune store \u2014 Comfortable enough, though I expected a bit more cushioning for the price."
+  },
+  {
+    "review_id": "REV-2026-8209",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-05-29",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Fit is okay, slightly snug in the midfoot, needed some guidance from staff."
+  },
+  {
+    "review_id": "REV-2026-8306",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-01",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Fit is okay, slightly snug in the midfoot, needed some guidance from staff."
+  },
+  {
+    "review_id": "REV-2026-8315",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-06-01",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Ahmedabad store \u2014 Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8325",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-06-01",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Marathon Pro at Pune store \u2014 Second time this month the store doesn't have my size in Marathon Pro. Getting frustrating."
+  },
+  {
+    "review_id": "REV-2026-8334",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-01",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Second time this month the store doesn't have my size in Marathon Pro. Getting frustrating."
+  },
+  {
+    "review_id": "REV-2026-8346",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-02",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "UK 8 was out of stock so the salesperson pushed me toward a different size. It didn't fit well."
+  },
+  {
+    "review_id": "REV-2026-8360",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-02",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8313",
+    "store_id": "STORE-006",
+    "sku_id": "FW-003",
+    "date": "2026-06-03",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8320",
+    "store_id": "STORE-006",
+    "sku_id": "FW-004",
+    "date": "2026-06-03",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8326",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-03",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Returning my pair, had to buy a half size larger because the right size was out of stock and it hurt my heel."
+  },
+  {
+    "review_id": "REV-2026-8329",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-06-03",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Well stocked store, friendly staff, got the color and size I wanted."
+  },
+  {
+    "review_id": "REV-2026-8319",
+    "store_id": "STORE-001",
+    "sku_id": "FW-005",
+    "date": "2026-06-04",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Comfort Walk at Mumbai store \u2014 Substituted size didn't work out, requesting an exchange once the correct size is back in stock."
+  },
+  {
+    "review_id": "REV-2026-8330",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-06-04",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8348",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-04",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": true,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Loved the design and grip, would definitely recommend to fellow runners."
+  },
+  {
+    "review_id": "REV-2026-8342",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-06",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Bought a size up since my usual size was unavailable, it pinched my toes during my run. Initiated a return."
+  },
+  {
+    "review_id": "REV-2026-8321",
+    "store_id": "STORE-001",
+    "sku_id": "FW-005",
+    "date": "2026-06-07",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Fit is okay, slightly snug in the midfoot, needed some guidance from staff."
+  },
+  {
+    "review_id": "REV-2026-8303",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-06-08",
+    "rating": 1,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Nitro Speed at Mumbai store \u2014 UK 8 was out of stock so the salesperson pushed me toward a different size. It didn't fit well."
+  },
+  {
+    "review_id": "REV-2026-8343",
+    "store_id": "STORE-005",
+    "sku_id": "FW-003",
+    "date": "2026-06-08",
+    "rating": 1,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Neither UK 8 nor UK 9 were available on the rack. Very disappointing inventory availability."
+  },
+  {
+    "review_id": "REV-2026-8310",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-06-09",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Fit is okay, slightly snug in the midfoot, needed some guidance from staff."
+  },
+  {
+    "review_id": "REV-2026-8322",
+    "store_id": "STORE-005",
+    "sku_id": "FW-003",
+    "date": "2026-06-09",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Trail Blazer at Pune store \u2014 Fit is okay, slightly snug in the midfoot, needed some guidance from staff."
+  },
+  {
+    "review_id": "REV-2026-8336",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-06-09",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Marathon Pro at Pune store \u2014 Second time this month the store doesn't have my size in Marathon Pro. Getting frustrating."
+  },
+  {
+    "review_id": "REV-2026-8304",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-06-10",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Store had my exact size in stock, walked out happy in under 5 minutes."
+  },
+  {
+    "review_id": "REV-2026-8302",
+    "store_id": "STORE-006",
+    "sku_id": "FW-004",
+    "date": "2026-06-11",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8349",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-06-12",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Well stocked store, friendly staff, got the color and size I wanted."
+  },
+  {
+    "review_id": "REV-2026-8337",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-06-13",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": true,
+    "review_text": "Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8339",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-06-13",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8316",
+    "store_id": "STORE-005",
+    "sku_id": "FW-004",
+    "date": "2026-06-14",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": true,
+    "review_text": "Grip Trainer at Pune store \u2014 Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8340",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-06-14",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Nitro Speed at Pune store \u2014 Good product but the store took a while to locate my size on the floor."
+  },
+  {
+    "review_id": "REV-2026-8341",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-06-14",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8317",
+    "store_id": "STORE-001",
+    "sku_id": "FW-004",
+    "date": "2026-06-15",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Mumbai store \u2014 Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8345",
+    "store_id": "STORE-001",
+    "sku_id": "FW-005",
+    "date": "2026-06-15",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8359",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-15",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Decent shoe overall, had to wait a bit while staff checked the backroom for my size."
+  },
+  {
+    "review_id": "REV-2026-8318",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-16",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8338",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-06-16",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8312",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-17",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Size curve availability was terrible during peak hours, several other customers had the same problem."
+  },
+  {
+    "review_id": "REV-2026-8324",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-06-17",
+    "rating": 1,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Had to settle for a size that didn't fit because my true size was missing from the shelf."
+  },
+  {
+    "review_id": "REV-2026-8314",
+    "store_id": "STORE-001",
+    "sku_id": "FW-003",
+    "date": "2026-06-18",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8350",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-06-18",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Marathon Pro at Pune store \u2014 Substituted size didn't work out, requesting an exchange once the correct size is back in stock."
+  },
+  {
+    "review_id": "REV-2026-8311",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-06-19",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Size curve availability was terrible during peak hours, several other customers had the same problem."
+  },
+  {
+    "review_id": "REV-2026-8323",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-19",
+    "rating": 1,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Visited specifically for Marathon Pro in UK 9 but the shelf was empty, staff said out of stock. Left without buying."
+  },
+  {
+    "review_id": "REV-2026-8331",
+    "store_id": "STORE-006",
+    "sku_id": "FW-002",
+    "date": "2026-06-19",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Nitro Speed at Ahmedabad store \u2014 Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8332",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-06-19",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Returning my pair, had to buy a half size larger because the right size was out of stock and it hurt my heel."
+  },
+  {
+    "review_id": "REV-2026-8357",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-06-19",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8309",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-06-20",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8335",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-20",
+    "rating": 1,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Returning my pair, had to buy a half size larger because the right size was out of stock and it hurt my heel."
+  },
+  {
+    "review_id": "REV-2026-8307",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-06-23",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Had to settle for a size that didn't fit because my true size was missing from the shelf."
+  },
+  {
+    "review_id": "REV-2026-8308",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-23",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Comfortable enough, though I expected a bit more cushioning for the price."
+  },
+  {
+    "review_id": "REV-2026-8351",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-23",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "UK 8.5 was out of stock so the salesperson pushed me toward a different size. It didn't fit well."
+  },
+  {
+    "review_id": "REV-2026-8328",
+    "store_id": "STORE-001",
+    "sku_id": "FW-003",
+    "date": "2026-06-24",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Trail Blazer at Mumbai store \u2014 Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8352",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-24",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Substituted size didn't work out, requesting an exchange once the correct size is back in stock."
+  },
+  {
+    "review_id": "REV-2026-8354",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-06-24",
+    "rating": 1,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Returning my pair, had to buy a half size larger because the right size was out of stock and it hurt my heel."
+  },
+  {
+    "review_id": "REV-2026-8333",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-06-25",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Fit is okay, slightly snug in the midfoot, needed some guidance from staff."
+  },
+  {
+    "review_id": "REV-2026-8344",
+    "store_id": "STORE-001",
+    "sku_id": "FW-003",
+    "date": "2026-06-25",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8353",
+    "store_id": "STORE-001",
+    "sku_id": "FW-005",
+    "date": "2026-06-25",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Comfort Walk at Mumbai store \u2014 Loved the design and grip, would definitely recommend to fellow runners."
+  },
+  {
+    "review_id": "REV-2026-8301",
+    "store_id": "STORE-006",
+    "sku_id": "FW-005",
+    "date": "2026-06-26",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8327",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-26",
+    "rating": 1,
+    "sentiment": "negative",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Substituted size didn't work out, requesting an exchange once the correct size is back in stock."
+  },
+  {
+    "review_id": "REV-2026-8356",
+    "store_id": "STORE-006",
+    "sku_id": "FW-002",
+    "date": "2026-06-26",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8305",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-06-28",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8358",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-06-28",
+    "rating": 1,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Store was out of my usual size, tried to squeeze into a smaller one but gave up and left."
+  },
+  {
+    "review_id": "REV-2026-8347",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-06-29",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": false,
+    "review_text": "Had to try a couple of sizes before settling on the right one."
+  },
+  {
+    "review_id": "REV-2026-8355",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-06-29",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Nitro Speed at Mumbai store \u2014 Comfortable enough, though I expected a bit more cushioning for the price."
+  },
+  {
+    "review_id": "REV-2026-8416",
+    "store_id": "STORE-001",
+    "sku_id": "FW-005",
+    "date": "2026-07-02",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Comfort Walk at Mumbai store \u2014 Well stocked store, friendly staff, got the color and size I wanted."
+  },
+  {
+    "review_id": "REV-2026-8435",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-07-02",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Nitro Speed at Mumbai store \u2014 Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8422",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-07-03",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Nitro Speed at Pune store \u2014 Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8429",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-07-03",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Marathon Pro at Pune store \u2014 Ended up buying online because the store never had my size in stock for over two weeks."
+  },
+  {
+    "review_id": "REV-2026-8433",
+    "store_id": "STORE-006",
+    "sku_id": "FW-002",
+    "date": "2026-07-03",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": false,
+    "review_text": "Nitro Speed at Ahmedabad store \u2014 Had to settle for a size that didn't fit because my true size was missing from the shelf."
+  },
+  {
+    "review_id": "REV-2026-8403",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-07-04",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Nitro Speed at Pune store \u2014 Fit is okay, slightly snug in the midfoot, needed some guidance from staff."
+  },
+  {
+    "review_id": "REV-2026-8415",
+    "store_id": "STORE-005",
+    "sku_id": "FW-005",
+    "date": "2026-07-05",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Comfort Walk at Pune store \u2014 Decent shoe overall, had to wait a bit while staff checked the backroom for my size."
+  },
+  {
+    "review_id": "REV-2026-8421",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-07-05",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8437",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-07-05",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Pune store \u2014 Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8438",
+    "store_id": "STORE-006",
+    "sku_id": "FW-002",
+    "date": "2026-07-05",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Nitro Speed at Ahmedabad store \u2014 Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8405",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-07-08",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8431",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-07-08",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Pune store \u2014 Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8445",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-07-08",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Nitro Speed at Mumbai store \u2014 Ended up buying online because the store never had my size in stock for over two weeks."
+  },
+  {
+    "review_id": "REV-2026-8413",
+    "store_id": "STORE-001",
+    "sku_id": "FW-003",
+    "date": "2026-07-10",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Trail Blazer at Mumbai store \u2014 Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8420",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-07-10",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": false,
+    "review_text": "Substituted size didn't work out, requesting an exchange once the correct size is back in stock."
+  },
+  {
+    "review_id": "REV-2026-8446",
+    "store_id": "STORE-006",
+    "sku_id": "FW-003",
+    "date": "2026-07-10",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8417",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-07-11",
+    "rating": 1,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Neither UK 8 nor UK 9 were available on the rack. Very disappointing inventory availability."
+  },
+  {
+    "review_id": "REV-2026-8423",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-07-11",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Store was out of my usual size, tried to squeeze into a smaller one but gave up and left."
+  },
+  {
+    "review_id": "REV-2026-8407",
+    "store_id": "STORE-001",
+    "sku_id": "FW-004",
+    "date": "2026-07-12",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8425",
+    "store_id": "STORE-001",
+    "sku_id": "FW-003",
+    "date": "2026-07-12",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Size curve availability was terrible during peak hours, several other customers had the same problem."
+  },
+  {
+    "review_id": "REV-2026-8414",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-07-14",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Ahmedabad store \u2014 Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8440",
+    "store_id": "STORE-001",
+    "sku_id": "FW-003",
+    "date": "2026-07-14",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Trail Blazer at Mumbai store \u2014 Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8409",
+    "store_id": "STORE-001",
+    "sku_id": "FW-004",
+    "date": "2026-07-15",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Mumbai store \u2014 Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8402",
+    "store_id": "STORE-006",
+    "sku_id": "FW-003",
+    "date": "2026-07-16",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": true,
+    "review_text": "Store had my exact size in stock, walked out happy in under 5 minutes."
+  },
+  {
+    "review_id": "REV-2026-8410",
+    "store_id": "STORE-001",
+    "sku_id": "FW-004",
+    "date": "2026-07-16",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8428",
+    "store_id": "STORE-001",
+    "sku_id": "FW-003",
+    "date": "2026-07-16",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Trail Blazer at Mumbai store \u2014 Good product but the store took a while to locate my size on the floor."
+  },
+  {
+    "review_id": "REV-2026-8406",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-07-17",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": true,
+    "review_text": "Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8443",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-07-17",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Neither UK 8 nor UK 9 were available on the rack. Very disappointing inventory availability."
+  },
+  {
+    "review_id": "REV-2026-8426",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-07-18",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8439",
+    "store_id": "STORE-005",
+    "sku_id": "FW-004",
+    "date": "2026-07-19",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Pune store \u2014 Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8441",
+    "store_id": "STORE-006",
+    "sku_id": "FW-004",
+    "date": "2026-07-19",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8434",
+    "store_id": "STORE-005",
+    "sku_id": "FW-004",
+    "date": "2026-07-22",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Pune store \u2014 Perfect for my gym sessions, great grip and support."
+  },
+  {
+    "review_id": "REV-2026-8442",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-07-22",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Ahmedabad store \u2014 Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8418",
+    "store_id": "STORE-001",
+    "sku_id": "FW-004",
+    "date": "2026-07-23",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Mumbai store \u2014 Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8419",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-07-23",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Well stocked store, friendly staff, got the color and size I wanted."
+  },
+  {
+    "review_id": "REV-2026-8412",
+    "store_id": "STORE-006",
+    "sku_id": "FW-002",
+    "date": "2026-07-26",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Loved the design and grip, would definitely recommend to fellow runners."
+  },
+  {
+    "review_id": "REV-2026-8401",
+    "store_id": "STORE-001",
+    "sku_id": "FW-005",
+    "date": "2026-07-27",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8408",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-07-27",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8427",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-07-27",
+    "rating": 1,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Substituted size didn't work out, requesting an exchange once the correct size is back in stock."
+  },
+  {
+    "review_id": "REV-2026-8436",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-07-27",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Nitro Speed at Pune store \u2014 UK 9.5 was out of stock so the salesperson pushed me toward a different size. It didn't fit well."
+  },
+  {
+    "review_id": "REV-2026-8430",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-07-28",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8404",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-07-29",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Pune store \u2014 Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8411",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-07-29",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Loved the design and grip, would definitely recommend to fellow runners."
+  },
+  {
+    "review_id": "REV-2026-8432",
+    "store_id": "STORE-006",
+    "sku_id": "FW-004",
+    "date": "2026-07-30",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8424",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-07-31",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Pune store \u2014 Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8444",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-07-31",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8524",
+    "store_id": "STORE-005",
+    "sku_id": "FW-005",
+    "date": "2026-08-02",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Store had my exact size in stock, walked out happy in under 5 minutes."
+  },
+  {
+    "review_id": "REV-2026-8510",
+    "store_id": "STORE-006",
+    "sku_id": "FW-005",
+    "date": "2026-08-03",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": true,
+    "review_text": "Comfort Walk at Ahmedabad store \u2014 Loved the design and grip, would definitely recommend to fellow runners."
+  },
+  {
+    "review_id": "REV-2026-8515",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-08-03",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": true,
+    "review_text": "Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8520",
+    "store_id": "STORE-005",
+    "sku_id": "FW-005",
+    "date": "2026-08-03",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Loved the design and grip, would definitely recommend to fellow runners."
+  },
+  {
+    "review_id": "REV-2026-8503",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-08-04",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Exactly the shoe I needed, staff helped me find the right size quickly."
+  },
+  {
+    "review_id": "REV-2026-8537",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-08-06",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Loved the design and grip, would definitely recommend to fellow runners."
+  },
+  {
+    "review_id": "REV-2026-8518",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-08-07",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": true,
+    "review_text": "Well stocked store, friendly staff, got the color and size I wanted."
+  },
+  {
+    "review_id": "REV-2026-8513",
+    "store_id": "STORE-005",
+    "sku_id": "FW-005",
+    "date": "2026-08-08",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8528",
+    "store_id": "STORE-001",
+    "sku_id": "FW-003",
+    "date": "2026-08-08",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8529",
+    "store_id": "STORE-006",
+    "sku_id": "FW-003",
+    "date": "2026-08-08",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Exactly the shoe I needed, staff helped me find the right size quickly."
+  },
+  {
+    "review_id": "REV-2026-8511",
+    "store_id": "STORE-001",
+    "sku_id": "FW-002",
+    "date": "2026-08-09",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Nitro Speed at Mumbai store \u2014 Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8530",
+    "store_id": "STORE-001",
+    "sku_id": "FW-004",
+    "date": "2026-08-09",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8512",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-08-10",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Replenishment finally came through, picked up my usual size without any hassle."
+  },
+  {
+    "review_id": "REV-2026-8509",
+    "store_id": "STORE-005",
+    "sku_id": "FW-004",
+    "date": "2026-08-11",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Pune store \u2014 Store had my exact size in stock, walked out happy in under 5 minutes."
+  },
+  {
+    "review_id": "REV-2026-8534",
+    "store_id": "STORE-006",
+    "sku_id": "FW-004",
+    "date": "2026-08-11",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8517",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-08-14",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": true,
+    "review_text": "Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8516",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-08-15",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Pune store \u2014 Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8522",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-08-15",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Replenishment finally came through, picked up my usual size without any hassle."
+  },
+  {
+    "review_id": "REV-2026-8519",
+    "store_id": "STORE-001",
+    "sku_id": "FW-005",
+    "date": "2026-08-16",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Comfort Walk at Mumbai store \u2014 Neither UK 8 nor UK 9 were available on the rack. Very disappointing inventory availability."
+  },
+  {
+    "review_id": "REV-2026-8531",
+    "store_id": "STORE-006",
+    "sku_id": "FW-004",
+    "date": "2026-08-16",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Ahmedabad store \u2014 Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8526",
+    "store_id": "STORE-001",
+    "sku_id": "FW-005",
+    "date": "2026-08-17",
+    "rating": 2,
+    "sentiment": "negative",
+    "fit_related_flag": true,
+    "review_text": "Visited specifically for Comfort Walk in UK 9 but the shelf was empty, staff said out of stock. Left without buying."
+  },
+  {
+    "review_id": "REV-2026-8539",
+    "store_id": "STORE-001",
+    "sku_id": "FW-004",
+    "date": "2026-08-17",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": true,
+    "review_text": "Store is fully stocked again! Got my exact size within minutes. Best experience in a while."
+  },
+  {
+    "review_id": "REV-2026-8514",
+    "store_id": "STORE-005",
+    "sku_id": "FW-003",
+    "date": "2026-08-18",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Store is fully stocked again! Got my exact size within minutes. Best experience in a while."
+  },
+  {
+    "review_id": "REV-2026-8540",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-08-18",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": true,
+    "review_text": "Nitro Speed at Pune store \u2014 Replenishment finally came through, picked up my usual size without any hassle."
+  },
+  {
+    "review_id": "REV-2026-8505",
+    "store_id": "STORE-005",
+    "sku_id": "FW-005",
+    "date": "2026-08-19",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Stock situation has clearly improved, staff confirmed a fresh shipment arrived this week."
+  },
+  {
+    "review_id": "REV-2026-8507",
+    "store_id": "STORE-006",
+    "sku_id": "FW-005",
+    "date": "2026-08-19",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Comfort Walk at Ahmedabad store \u2014 Well stocked store, friendly staff, got the color and size I wanted."
+  },
+  {
+    "review_id": "REV-2026-8535",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-08-19",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Marathon Pro at Mumbai store \u2014 Fit is okay, slightly snug in the midfoot, needed some guidance from staff."
+  },
+  {
+    "review_id": "REV-2026-8504",
+    "store_id": "STORE-006",
+    "sku_id": "FW-005",
+    "date": "2026-08-21",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Good news - my size is back in stock. Bought two pairs this time just in case."
+  },
+  {
+    "review_id": "REV-2026-8533",
+    "store_id": "STORE-001",
+    "sku_id": "FW-001",
+    "date": "2026-08-21",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Comfortable out of the box, no break-in period needed."
+  },
+  {
+    "review_id": "REV-2026-8527",
+    "store_id": "STORE-005",
+    "sku_id": "FW-005",
+    "date": "2026-08-22",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Comfort Walk at Pune store \u2014 Comfortable enough, though I expected a bit more cushioning for the price."
+  },
+  {
+    "review_id": "REV-2026-8536",
+    "store_id": "STORE-006",
+    "sku_id": "FW-002",
+    "date": "2026-08-22",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Been using these for a month now, holding up really well."
+  },
+  {
+    "review_id": "REV-2026-8501",
+    "store_id": "STORE-006",
+    "sku_id": "FW-001",
+    "date": "2026-08-23",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Marathon Pro at Ahmedabad store \u2014 Store is fully stocked again! Got my exact size within minutes. Best experience in a while."
+  },
+  {
+    "review_id": "REV-2026-8502",
+    "store_id": "STORE-001",
+    "sku_id": "FW-003",
+    "date": "2026-08-23",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Trail Blazer at Mumbai store \u2014 Had to try a couple of sizes before settling on the right one."
+  },
+  {
+    "review_id": "REV-2026-8521",
+    "store_id": "STORE-001",
+    "sku_id": "FW-003",
+    "date": "2026-08-24",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Trail Blazer at Mumbai store \u2014 Fantastic cushioning, wore them for my long run this weekend and no complaints."
+  },
+  {
+    "review_id": "REV-2026-8508",
+    "store_id": "STORE-005",
+    "sku_id": "FW-002",
+    "date": "2026-08-28",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Nitro Speed at Pune store \u2014 Decent shoe overall, had to wait a bit while staff checked the backroom for my size."
+  },
+  {
+    "review_id": "REV-2026-8538",
+    "store_id": "STORE-005",
+    "sku_id": "FW-001",
+    "date": "2026-08-28",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": true,
+    "review_text": "Marathon Pro at Pune store \u2014 Great fit and super comfortable cushioning for my daily runs."
+  },
+  {
+    "review_id": "REV-2026-8523",
+    "store_id": "STORE-005",
+    "sku_id": "FW-003",
+    "date": "2026-08-29",
+    "rating": 3,
+    "sentiment": "neutral",
+    "fit_related_flag": true,
+    "review_text": "Decent shoe overall, had to wait a bit while staff checked the backroom for my size."
+  },
+  {
+    "review_id": "REV-2026-8506",
+    "store_id": "STORE-001",
+    "sku_id": "FW-005",
+    "date": "2026-08-30",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Loved the design and grip, would definitely recommend to fellow runners."
+  },
+  {
+    "review_id": "REV-2026-8525",
+    "store_id": "STORE-001",
+    "sku_id": "FW-005",
+    "date": "2026-08-30",
+    "rating": 5,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Picked this up as a gift, packaging and quality were excellent."
+  },
+  {
+    "review_id": "REV-2026-8532",
+    "store_id": "STORE-006",
+    "sku_id": "FW-004",
+    "date": "2026-08-30",
+    "rating": 4,
+    "sentiment": "positive",
+    "fit_related_flag": false,
+    "review_text": "Grip Trainer at Ahmedabad store \u2014 Store had my exact size in stock, walked out happy in under 5 minutes."
+  }
+]
